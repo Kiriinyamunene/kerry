@@ -1,0 +1,55 @@
+/* Button container styles */
+.hero-buttons-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  transform: scale(0.5); /* Scale down to appropriate size */
+}
+
+/* Primary button styles */
+.hero-button-primary {
+  padding: 12px 28px;
+  background: rgba(0, 80, 255, 0.2);
+  color: #ffffff;
+  border: 1px solid rgba(64, 128, 255, 0.6);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-backdrop-filter: blur(4px); /* Safari 9+ support */
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 15px rgba(64, 128, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* Primary button hover state */
+.hero-button-primary:hover {
+  background: rgba(0, 80, 255, 0.4);
+  box-shadow: 0 0 20px rgba(64, 128, 255, 0.5);
+}
+
+/* Secondary button styles */
+.hero-button-secondary {
+  padding: 12px 28px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-backdrop-filter: blur(4px); /* Safari 9+ support */
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Secondary button hover state */
+.hero-button-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
